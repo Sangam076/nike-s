@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+  
+   .navbar {
+            height: 120px; /* Adjust the height as needed */
+            
+            
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            line-height: 50px; /* Ensure proper alignment of text vertically */
+            border: 5px;
+        }
+  .nav-link{
+    color: black;
+    font-size: large;
+    
+  }
+  .text-secondary{
+    background-color:whitesmoke;
+    border-radius: 10%;
+    border-style:solid;
+    border-color: black;
+    margin-top: 100px;
+  }
+  .img1{
+    height: 30px;
+  }
+  .img2{
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    
+  }
+  .carousel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px; /* Adjust as needed */
+        }
+        .carousel-inner {
+            width: 100%; /* Make the inner carousel take full width */
+            max-width: 500px; /* Optional: Limit the max width */
+        }
+    .carousel-item active {
+            transition: transform 0.1s ease; /* Adjust transition speed */
+        }
+  
+  </style>  
+</head>
+  
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" > 
+  <div class="container-fluid bg-gradient fs-4 rounded-3">
+    <a class="navbar-brand" href="#"><img src="./body-text.svg" alt="nike's icon" height="25" bg-"white"> Nike's</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="#">Home</a>
+        <a class="nav-link "  href="">Features</a>
+        <a class="nav-link " href="#">Pricing</a>
+        <a class="nav-link" href="#">About</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="10">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img2" src="./c2 (2).jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img class="img2" src="./c2 (1).jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img class="img2" src="c2 (3).jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+
+
+<div class= "text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-dark">Nike's Guide : Excelling from Class 6 to 12</h1>
+
+      <div class="col-lg-6 mx-auto text-#cccccc;">
+        <p class="fs-5 mb-4">Welcome to Nike's Ultimate Study Guide, your one-stop solution for academic excellence from Class 6 to 12 in the CBSE and ICSE boards. We understand the importance of a solid educational foundation and are dedicated to providing top-notch tutorials that cater to the unique needs of students aiming to excel in their studies.</p>
+        <p class="fs-5 mb-4"> Social Studies, and Science. Each tutorial is designed to make learning engaging and effective, with clear explanations, practical examples, and comprehensive practice exercises. Whether you're preparing for your board exams, strengthening your foundational knowledge, or seeking to master complex concepts, Nike's Ultimate Study Guide is here to support your academic journey.</p>
+        <p class="fs-5 mb-4">join our community of ambitious students and gain access to resources that simplify learning and enhance understanding. With Nike's Ultimate Study Guide, you'll have the tools you need to achieve your academic goals and pave the way for a bright future. Start exploring our tutorials today and take the first step towards academic success! </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Features</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold text-body-emphasis"> Nike's Ultimate Study Guide: Choosing Your Path in CBSE and ICSE from Class 6 to 12</h2>
+        
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Mathematics <img class="img1" src="./pi.png"></h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Chemistry <img class="img1" src="./chemical-flask.png"></h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Physics <img class="img1" src="./atom.png"></h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">            
+            <h4 class="fw-semibold mb-0 text-body-emphasis">English <img class="img1" src="./alphabet.png"></h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">            
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Social Science <img img class="img1" src="./social-science.png"></h4>
+            <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
